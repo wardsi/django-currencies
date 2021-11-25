@@ -15,6 +15,7 @@ sources = OrderedDict([
     ('oxr',     '._openexchangerates'),
     ('yahoo',   '._yahoofinance'),
     ('iso',     '._currencyiso'),
+    ('fxapi',   '._exchangeratesapi'),
     #TODO:
     #('google', '._googlecalculator.py'),
     #('ecb', '._europeancentralbank.py'),
