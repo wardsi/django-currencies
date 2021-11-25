@@ -80,7 +80,7 @@ class OpenExchangeRatesClient(object):
 
         return resp.json()
 
-    def historical(self, date, base='USD'):
+    def historical(self, date, base='EUR'):
         """Fetches historical exchange rate data from service
 
         :Example Data:
