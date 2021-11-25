@@ -64,7 +64,7 @@ class CurrencyHandler(BaseHandler):
 
             raise TypeError("%s: XML %s appears to be invalid" % (self.name, self._cached_currency_file))
 
-        return datetime.strptime(root.attrib['Pblshd'], '%Y-%m-%d').date()
+        return datetime.strptime(root.attrib['Pblshd'], '%B %d, %Y').date()
 
     def get_allcurrencycodes(self):
         """Return an iterable of distinct 3 character ISO 4217 currency codes"""
